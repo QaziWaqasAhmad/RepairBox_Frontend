@@ -13,7 +13,7 @@ export default function HomePage() {
 
     // sx={{ width: '100%',display:'flex',justifyContent:'flex-start',paddingLeft:3,paddingTop:2 }}
     <Box>
-      <Navbar />
+      {/* <Navbar /> */}
      <BasicStack />
       <HorizontalLabelPositionBelowStepper />
       <MultipleSelect />

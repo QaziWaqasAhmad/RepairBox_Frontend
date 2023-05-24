@@ -18,16 +18,28 @@ import Translations from './components/translations'
 import Users from './components/users'
 import UserRole from './components/userrole'
 import  Navbar  from './components/navbar'
+import  Navber  from './components/navber'
 
 import './App.css'
+
+
+let navbarCheck = () => {
+
+    if(window.location.pathname == "/"){
+      return <Navber />
+    }else{
+      return <Navbar />
+    }
+  
+}
 
 function App() {
 
   return (
     <>
       {/* <h1 className='bg-red-800 text-4xl'>React Router</h1> */}
-
-<Navbar/>
+    
+      {navbarCheck()}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/admin" element={<AdminLayout />}>
