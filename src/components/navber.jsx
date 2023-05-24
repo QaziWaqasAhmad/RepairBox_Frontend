@@ -45,7 +45,7 @@ function ResponsiveAppBar() {
               paddingLeft:8
             }}
           >
-            Repair Box
+            Joytel
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -100,7 +100,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-             Repair Box
+             Joytel
           </Typography>
           <Box sx={{ flexGrow: 1, paddingRight:5, display: { xs: 'none', md: 'flex',justifyContent:'end' } }}>
             {pages.map((page) => (
